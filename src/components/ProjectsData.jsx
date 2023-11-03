@@ -3,12 +3,12 @@
 export const ProjectsData = [
   {
     title: 'QR Code Generator',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/qr.png',
     alt: 'image of a QR-code',
     description: 'A QR code generator created with qrcode library and a customHook in React.',
     tags: ['React', 'customHooks', 'Styled components'],
-    live: '',
-    github: ''
+    live: 'https://tbl-qr-code-generator.netlify.app',
+    github: 'https://github.com/theresBL/qr-code-generator'
   },
   {
     title: 'Circuit Training App',
@@ -21,7 +21,7 @@ export const ProjectsData = [
   },
   {
     title: 'Authorization form',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/auth.png',
     alt: 'image of the landing page',
     description: 'This project is a landing page for signing up and logging in, practicing how to authenticate users and handle passwords.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Authorization', 'Backend', 'Frontend', 'Group-programming'],
@@ -30,30 +30,30 @@ export const ProjectsData = [
   },
   {
     title: 'Happy Thoughts',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/happy.png',
     alt: 'image of the Happy Thoughts App',
     description: 'A Twitter-like app but with only happy vibes. I created my own API for this app that can be found in the README on Github.',
     tags: ['React', 'API', 'Backend', 'Frontend'],
     live: ' https://tbl-happy-thoughts.netlify.app/',
     github: 'https://github.com/theresBL/project-happy-thoughts' //add backend url to this in read me
   },
-  {
-    title: 'Project MongoDB - Netflix data',
-    img: 'src/assets/images/project-images/netflix.png',
-    alt: 'image of the code',
-    description: 'Creating backend data received via mongoose, creating different endpoints to display the data. Working with MongoDB and Compass',
-    tags: ['MongoDB', 'Compass', 'Mongoose', 'json'],
-    live: 'https://project-mongo-api-vkixbizyda-lz.a.run.app/',
-    github: 'https://github.com/theresBL/project-mongo-api'
-  },
-  {
-    title: 'Express API- books',
-    img: 'src/assets/images/project-images/books.png',
-    alt: 'image of the api',
-    description: 'First backend project where the task was to....NEED UPDATE', //update this
-    tags: ['Backend', 'Express', 'API', 'json'],
-    github: 'https://github.com/theresBL/project-express-api/tree/master/data'
-  },
+  // {
+  //   title: 'Project MongoDB - Netflix data',
+  //   img: 'src/assets/images/project-images/netflix.png',
+  //   alt: 'image of the code',
+  //   description: 'Creating backend data received via mongoose, creating different endpoints to display the data. Working with MongoDB and Compass',
+  //   tags: ['MongoDB', 'Compass', 'Mongoose', 'json'],
+  //   live: 'https://project-mongo-api-vkixbizyda-lz.a.run.app/',
+  //   github: 'https://github.com/theresBL/project-mongo-api'
+  // },
+  // {
+  //   title: 'Express API- books',
+  //   img: 'src/assets/images/project-images/books.png',
+  //   alt: 'image of the api',
+  //   description: 'First backend project where the task was to....NEED UPDATE', //update this
+  //   tags: ['Backend', 'Express', 'API', 'json'],
+  //   github: 'https://github.com/theresBL/project-express-api/tree/master/data'
+  // },
   {
     title: 'The Gothenburg Quiz',
     img: 'src/assets/images/project-images/gbg.png',
@@ -65,7 +65,7 @@ export const ProjectsData = [
   },
   {
     title: 'Labyrinth game',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/labyrinth.png',
     alt: 'image of the labyrinth',
     description: 'A fun pair-programming experience where we put a lot of effort on making the styling fit the story of the game.',
     tags: ['React', 'Redux', 'React Router', 'Pair-programming', 'API'],
@@ -74,16 +74,16 @@ export const ProjectsData = [
   },
   {
     title: 'Todo App',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/todo.png',
     alt: 'image of the Todo App',
     description: 'The first project I made using Redux resulted in a simple Todo-app where you can create, tick and delete tasks.',
     tags: ['React', 'Redux', 'Styled components'],
-    live: '',
+    live: 'https://get-your-stuff-together.netlify.app/',
     github: 'https://github.com/theresBL/project-todos/tree/master/code'
   },
   {
     title: 'Yoga-studio landing page',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/yoga.png',
     alt: 'image of the yoga studio landing page',
     description: 'This is a project based on a design handover from a UX-student. The requirements was to implement the strict design into code.',
     tags: ['React', 'Styled components', 'Design implementation'],
@@ -110,7 +110,7 @@ export const ProjectsData = [
   },
   {
     title: 'Music Releases',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/spotify.png',
     alt: 'image of music release app',
     description: 'My first React-project in form of a music release app created using open API fetched from Spotify.',
     tags: ['HTML', 'CSS', 'React', 'API'],
@@ -119,7 +119,7 @@ export const ProjectsData = [
   },
   {
     title: 'The Fairytale Generator',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/fairy.png',
     alt: 'image of the Fairytale Generator',
     description: 'The Fairytale Generator is an React App, build as a survey with a bit of a twist. It is the first react-project I´ve made and I wanted to present a magical survey that would end up with the user feeling happy. ',
     tags: ['React', 'CSS', 'JavaScript'],
@@ -128,7 +128,7 @@ export const ProjectsData = [
   },
   {
     title: 'Weather App',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/weather.png',
     alt: 'image of weather app',
     description: 'The weather app is a clean and user friendly tool providing  instant, personalized responses due to your requirements. The app is a result of a team effort due to pair- and mob-programming at it´s best.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'Pair-programming'],
@@ -137,7 +137,7 @@ export const ProjectsData = [
   },
   {
     title: 'Guess Who game',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/guesswho.png',
     alt: 'image of guess who app',
     description: 'Travel back to your childhood playing the classic board game in a remastered form. The game randomizes Who and you compete only with yourself. How few guesses will you pass?',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -146,7 +146,7 @@ export const ProjectsData = [
   },
   {
     title: 'The Laundry Chatbot',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/chatbot.png',
     alt: 'image of the laundry bot app',
     description: 'A fun take on a chatbot that will help you book your laundry time in th cutest possible way.',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -155,7 +155,7 @@ export const ProjectsData = [
   },
   {
     title: 'News Site',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: 'src/assets/images/project-images/codetimes.png',
     alt: 'image of news site',
     description: 'My first ever coding project in a new site formate. A clean and responsive site with a big dash of humor.',
     tags: ['HTML', 'CSS'],

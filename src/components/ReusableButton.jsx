@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const ReusableButton = ({ backgroundColor, color, svg, text, fill }) => {
+export const ReusableButton = ({ backgroundColor, hoverBackground, hoverColor, color, svg, text, fill }) => {
   return (
-    <StyledButton backgroundColor={backgroundColor} color={color}>
+    <StyledButton backgroundColor={backgroundColor} color={color} hoverBackground={hoverBackground} hoverColor={hoverColor}>
       {svg && <img src={svg} alt="Button Icon" style={{ fill }} />}
       {text}
     </StyledButton>

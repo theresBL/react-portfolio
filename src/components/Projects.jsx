@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ProjectsData } from './projectsData'
+import { ProjectsData } from './ProjectsData'
 import liveIcon from '../assets/icons/live.svg'
 import gitIcon from '../assets/icons/github.svg'
 import { ReusableButton } from './ReusableButton'
@@ -45,7 +45,6 @@ export const Projects = () => {
         )
 
       })}
-
     </ProjectsSection >
   )
 }
@@ -70,6 +69,7 @@ const ProjectsSection = styled.section`
 const OneProject = styled.div`
 display: flex;
 flex-direction: column;
+align-self: flex-start;
 gap: 1em;
 
 @media (min-width: 744px) {
@@ -84,8 +84,8 @@ gap: 1em;
 const ProjectImage = styled.img`
   height: 12.5em;
   width: 21.438em;
-  border-left:0.625em solid #ff847c;
-  border-bottom: 0.625em solid #ff847c;
+  border-left:0.625em solid #333;
+  border-bottom: 0.625em solid #333;
   object-fit: cover;
 
   @media (min-width: 744px) {
