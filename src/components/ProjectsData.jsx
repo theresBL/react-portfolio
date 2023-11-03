@@ -65,7 +65,7 @@ export const ProjectsData = [
   },
   {
     title: 'Labyrinth game',
-    img: 'src/assets/images/project-images/labyrinth.png',
+    img: 'src/assets/images/project-images/lab.png',
     alt: 'image of the labyrinth',
     description: 'A fun pair-programming experience where we put a lot of effort on making the styling fit the story of the game.',
     tags: ['React', 'Redux', 'React Router', 'Pair-programming', 'API'],
@@ -97,7 +97,7 @@ export const ProjectsData = [
     description: 'This portfolio was at first created with entirely HTML and CSS. As I recreated it in React I also made some tweaks on the design.',
     tags: ['React', 'customHooks', 'Styled components'],
     live: 'https://theres-bl-portfolio.netlify.app/',
-    github: ''
+    github: 'https://github.com/theresBL/project-portfolio'
   },
   {
     title: 'Top Movies List',
