@@ -8,5 +8,5 @@ export const Divider = () => {
 }
 
 const Wave = styled.img`
-max-width: 100vw;
+width: 100%;
 `

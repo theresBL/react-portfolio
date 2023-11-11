@@ -4,11 +4,13 @@ import { ReusableSection } from '../ReusableStyles'
 import { FlexColumn } from '../ReusableStyles'
 import { Links } from './Links'
 import tblImg from '../assets/images/TBL1.png'
+import { BurgerMenu } from './BurgerMenu'
 
 export const Hero = () => {
   return (
     <HeroSection>
       <HeroContent>
+        <BurgerMenu />
         <StyledImg src={profileImg} alt='profileImage' />
         <StyledPresentation>
           <div>
@@ -97,6 +99,18 @@ const TBL = styled.div`
 `
 
 const TBLimg = styled.img`
+  @keyframes vaporize {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
   width: 50%;
+  animation: vaporize 2s ease-in-out;
 `
 

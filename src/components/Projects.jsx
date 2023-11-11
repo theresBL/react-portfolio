@@ -85,7 +85,7 @@ gap: 1em;
 
 const ProjectImage = styled.img`
   height: 12.5em;
-  width: 21.438em;
+  width: 100%;
   border-left:0.625em solid #333;
   border-bottom: 0.625em solid #333;
   object-fit: cover;
