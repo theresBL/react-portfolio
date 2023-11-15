@@ -9,8 +9,8 @@ import { BurgerMenu } from './BurgerMenu'
 export const Hero = () => {
   return (
     <HeroSection>
+      <BurgerMenu />
       <HeroContent>
-        <BurgerMenu />
         <StyledImg src={profileImg} alt='profileImage' />
         <StyledPresentation>
           <div>

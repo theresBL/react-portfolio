@@ -1,68 +1,82 @@
 import { useState } from 'react'
-import { bubble as Menu } from 'react-burger-menu'
+import styled from 'styled-components'
+import hamburger from '../assets/icons/menu.svg'
+import close from '../assets/icons/close.svg'
 
 export const BurgerMenu = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuActive, setMenuActive] = useState(false)
 
-  const handleBurgerState = (state) => {
-    setMenuOpen(state.isOpen)
+  const toggleMenu = () => {
+    setMenuActive(!menuActive)
+    document.body.classList.toggle('menu-open', !menuActive)
   }
-
-  const closeMenu = () => {
-    setMenuOpen(false)
-  }
-
-  // const toggleMenu = () => {
-  //   setMenuOpen((prevMenuOpen) => !prevMenuOpen)
-  // }
-
-  const styles = {
-    bmBurgerButton: {
-      position: 'absolute',
-      width: '36px',
-      height: '30px',
-      left: '36px',
-      top: '36px',
-      cursor: 'pointer'
-    },
-    bmCrossButton: {
-      position: 'absolute',
-      left: '36px',
-      top: '36px'
-    },
-    bmCross: {
-      background: '#333'
-    },
-    bmMenuWrap: {
-      position: 'absolute',
-      top: '0',
-      left: '0',
-      height: '100%',
-      width: '25%'
-    },
-    bmMenu: {
-      padding: '2.5em 1.5em 0',
-      fontSize: '1.15em',
-    },
-    bmMorphShape: {
-      fill: 'rgba(255, 255, 255, 0.939)'
-    },
-    bmItemList: {
-      color: '#333',
-      padding: '0.8em',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'space-evenly'
-    },
-  }
-
 
   return (
-    <Menu noOverlay customBurgerIcon={<img src='src/assets/icons/menu.svg' />} styles={styles} isOpen={menuOpen} onStateChange={(state) => handleBurgerState(state)}>
-      <a onClick={() => closeMenu()}>About me</a>
-      <a>Projects</a>
-      <a>CV</a>
-      <a>Contact</a>
-    </Menu>
+    <MenuContainer>
+      <ToggleIcon
+        src={menuActive ? close : hamburger}
+        alt={menuActive ? 'close menu icon' : 'hamburger menu icon'}
+        onClick={toggleMenu}
+      />
+      {menuActive && (
+        <Menu>
+          <MenuItem>About me</MenuItem>
+          <MenuItem>Projects</MenuItem>
+          <MenuItem>CV</MenuItem>
+          <MenuItem>Contact</MenuItem>
+        </Menu>
+      )}
+    </MenuContainer>
   )
 }
+
+const MenuContainer = styled.div`
+  position: absolute;
+  top: 1.25em;
+  left: 0;
+  z-index: 1000;
+`
+
+const Menu = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2em;
+  position: absolute;
+  top: 3em ;
+  left: 0;
+  height: 80vh;
+  width: 20em;
+  background-color:rgba(255,255,255, 0.9);
+  animation: slideDown 0.3s ease-in-out;
+  box-shadow: 10px 11px 10px 0px rgba(0,0,0,0.19);
+
+@keyframes slideDown {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+`
+
+
+const MenuItem = styled.a`
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #79c2d0;
+  }
+`;
+
+const ToggleIcon = styled.img`
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+  margin-left: 1.25em;
+  position: absolute;
+`

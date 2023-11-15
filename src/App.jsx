@@ -31,6 +31,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
   }
+
+  body.menu-open {
+    overflow: hidden;
+  }
 `
 
 const Main = styled(FlexColumn)`
