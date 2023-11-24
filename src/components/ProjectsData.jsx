@@ -65,7 +65,7 @@ export const ProjectsData = [
   },
   {
     title: 'Labyrinth game',
-    img: 'src/assets/images/project-images/lab.png',
+    img: '/project-images/lab.png',
     alt: 'image of the labyrinth',
     description: 'A fun pair-programming experience where we put a lot of effort on making the styling fit the story of the game.',
     tags: ['React', 'Redux', 'React Router', 'Pair-programming', 'API'],
