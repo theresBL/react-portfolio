@@ -18,7 +18,7 @@ export const Hero = () => {
             <h4>Frontend Developer</h4>
           </div>
         </StyledPresentation>
-        <p>I am a frontend developer with a passion for creating beautiful, responsive, and user-friendly websites. I am a self taught problem solver who never backs down for a good debugging issue.</p>
+        <p>I am a frontend developer with a passion for creating beautiful, responsive, and user-friendly websites. I am a team player of rang due to my previous career in elite sports.</p>
         <Links />
       </HeroContent>
       <TBL><TBLimg src={tblImg} /></TBL>

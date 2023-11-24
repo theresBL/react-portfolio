@@ -8,7 +8,6 @@ import { ReusableButton } from './ReusableButton'
 //create carousel
 
 export const Projects = () => {
-  // console.log(ProjectsData)
   return (
     <ProjectsSection>
       <h1>Featured Projects</h1>
