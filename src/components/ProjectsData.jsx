@@ -3,7 +3,7 @@
 export const ProjectsData = [
   {
     title: 'QR Code Generator',
-    img: '../assets/images/project-images/qr.png',
+    img: '/project-images/qr.png',
     alt: 'image of a QR-code',
     description: 'A QR code generator created with qrcode library and a customHook in React.',
     tags: ['React', 'customHooks', 'Styled components'],
