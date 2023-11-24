@@ -12,7 +12,7 @@ export const ProjectsData = [
   },
   {
     title: 'Circuit Training App',
-    img: 'src/assets/images/project-images/circleIt.png',
+    img: '/project-images/circleIt.png',
     alt: 'picture of workout app',
     description: "A fullstack project, in which we've built our own API and database. Login functionality that unlocks more features for the user.",
     tags: ['React', 'Styled components', 'API', 'MongoDB', 'Express', 'Node.js', 'Figma'],
@@ -21,7 +21,7 @@ export const ProjectsData = [
   },
   {
     title: 'Authorization form',
-    img: 'src/assets/images/project-images/auth.png',
+    img: '/project-images/auth.png',
     alt: 'image of the landing page',
     description: 'This project is a landing page for signing up and logging in, practicing how to authenticate users and handle passwords.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Authorization', 'Backend', 'Frontend', 'Group-programming'],
@@ -30,7 +30,7 @@ export const ProjectsData = [
   },
   {
     title: 'Happy Thoughts',
-    img: 'src/assets/images/project-images/happy.png',
+    img: '/project-images/happy.png',
     alt: 'image of the Happy Thoughts App',
     description: 'A Twitter-like app but with only happy vibes. I created my own API for this app that can be found in the README on Github.',
     tags: ['React', 'API', 'Backend', 'Frontend'],
@@ -56,7 +56,7 @@ export const ProjectsData = [
   // },
   {
     title: 'The Gothenburg Quiz',
-    img: 'src/assets/images/project-images/gbg.png',
+    img: '/project-images/gbg.png',
     alt: 'image of the quiz',
     description: 'A quiz made from group-programming using Redux an routes',
     tags: ['React', 'Redux', 'Mob-programming', 'Figma'],
@@ -74,7 +74,7 @@ export const ProjectsData = [
   },
   {
     title: 'Todo App',
-    img: 'src/assets/images/project-images/todo.png',
+    img: '/project-images/todo.png',
     alt: 'image of the Todo App',
     description: 'The first project I made using Redux resulted in a simple Todo-app where you can create, tick and delete tasks.',
     tags: ['React', 'Redux', 'Styled components'],
@@ -83,7 +83,7 @@ export const ProjectsData = [
   },
   {
     title: 'Yoga-studio landing page',
-    img: 'src/assets/images/project-images/yoga.png',
+    img: '/project-images/yoga.png',
     alt: 'image of the yoga studio landing page',
     description: 'This is a project based on a design handover from a UX-student. The requirements was to implement the strict design into code.',
     tags: ['React', 'Styled components', 'Design implementation'],
@@ -110,7 +110,7 @@ export const ProjectsData = [
   },
   {
     title: 'Music Releases',
-    img: 'src/assets/images/project-images/spotify.png',
+    img: '/project-images/spotify.png',
     alt: 'image of music release app',
     description: 'My first React-project in form of a music release app created using open API fetched from Spotify.',
     tags: ['HTML', 'CSS', 'React', 'API'],
@@ -119,7 +119,7 @@ export const ProjectsData = [
   },
   {
     title: 'The Fairytale Generator',
-    img: 'src/assets/images/project-images/fairy.png',
+    img: '/project-images/fairy.png',
     alt: 'image of the Fairytale Generator',
     description: 'The Fairytale Generator is an React App, build as a survey with a bit of a twist. It is the first react-project I´ve made and I wanted to present a magical survey that would end up with the user feeling happy. ',
     tags: ['React', 'CSS', 'JavaScript'],
@@ -128,7 +128,7 @@ export const ProjectsData = [
   },
   {
     title: 'Weather App',
-    img: 'src/assets/images/project-images/weather.png',
+    img: '/project-images/weather.png',
     alt: 'image of weather app',
     description: 'The weather app is a clean and user friendly tool providing  instant, personalized responses due to your requirements. The app is a result of a team effort due to pair- and mob-programming at it´s best.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'Pair-programming'],
@@ -137,7 +137,7 @@ export const ProjectsData = [
   },
   {
     title: 'Guess Who game',
-    img: 'src/assets/images/project-images/guesswho.png',
+    img: '/project-images/guesswho.png',
     alt: 'image of guess who app',
     description: 'Travel back to your childhood playing the classic board game in a remastered form. The game randomizes Who and you compete only with yourself. How few guesses will you pass?',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -146,7 +146,7 @@ export const ProjectsData = [
   },
   {
     title: 'The Laundry Chatbot',
-    img: 'src/assets/images/project-images/chatbot.png',
+    img: '/project-images/chatbot.png',
     alt: 'image of the laundry bot app',
     description: 'A fun take on a chatbot that will help you book your laundry time in th cutest possible way.',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -155,7 +155,7 @@ export const ProjectsData = [
   },
   {
     title: 'News Site',
-    img: 'src/assets/images/project-images/codetimes.png',
+    img: '/project-images/codetimes.png',
     alt: 'image of news site',
     description: 'My first ever coding project in a new site formate. A clean and responsive site with a big dash of humor.',
     tags: ['HTML', 'CSS'],
