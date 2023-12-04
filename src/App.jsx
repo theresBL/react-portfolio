@@ -6,6 +6,7 @@ import { MyWords } from './components/MyWords'
 import { Contact } from './components/Contact'
 import { createGlobalStyle, styled } from 'styled-components'
 import { FlexColumn } from './ReusableStyles'
+// import { ProjectsSlider } from './components/ProjectsSlider'
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
         <Skills />
         <MyWords />
         <Contact />
+        {/* <ProjectsSlider /> */}
       </Main>
     </>
   )

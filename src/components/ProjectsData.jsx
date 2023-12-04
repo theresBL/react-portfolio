@@ -5,7 +5,7 @@ export const ProjectsData = [
     title: 'QR Code Generator',
     img: '/project-images/qr.png',
     alt: 'image of a QR-code',
-    description: 'A QR code generator created with qrcode library and a customHook in React.',
+    description: 'A QR code generator created with qr-code library and a customHook in React.',
     tags: ['React', 'customHooks', 'Styled components'],
     live: 'https://tbl-qr-code-generator.netlify.app',
     github: 'https://github.com/theresBL/qr-code-generator'
@@ -92,7 +92,7 @@ export const ProjectsData = [
   },
   {
     title: 'HTML Portfolio',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: '/project-images/TBL-img.png',
     alt: 'image of portfolio logo',
     description: 'This portfolio was at first created with entirely HTML and CSS. As I recreated it in React I also made some tweaks on the design.',
     tags: ['React', 'customHooks', 'Styled components'],
@@ -101,11 +101,11 @@ export const ProjectsData = [
   },
   {
     title: 'Top Movies List',
-    img: "https://www.greenapplewellness.com.au/wp-content/uploads/image-placeholder-350x350-1.png",
+    img: '/project-images/movies.png',
     alt: 'image of the movies app',
     description: 'A pair-programming project with a strict design to follow. A movie app listing top 50 movies from an themoviedb-API',
     tags: ['React Router', 'CSS', 'JavaScript', 'API', 'Pair-programming'],
-    live: '', //find url
+    live: 'https://glowing-tartufo-fbd45b.netlify.app/',
     github: 'https://github.com/theresBL/project-movies'
   },
   {
