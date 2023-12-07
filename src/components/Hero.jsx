@@ -1,15 +1,15 @@
-import profileImg from '../assets//images/profil.png'
+import profileImg from '../assets//images/TBL-cut.png'
 import styled from 'styled-components'
 import { ReusableSection } from '../ReusableStyles'
 import { FlexColumn } from '../ReusableStyles'
 import { Links } from './Links'
 import tblImg from '../assets/images/TBL1.png'
-import { BurgerMenu } from './BurgerMenu'
+// import { BurgerMenu } from './BurgerMenu'
 
 export const Hero = () => {
   return (
     <HeroSection>
-      <BurgerMenu />
+      {/* <BurgerMenu /> */}
       <HeroContent>
         <StyledImg src={profileImg} alt='profileImage' />
         <StyledPresentation>
@@ -57,7 +57,8 @@ export const StyledImg = styled.img`
 
 export const StyledPresentation = styled.div`
   h4 {
-  color: #79c2d0;
+  /* color: #79c2d0; */
+  color: rgb(187,134,0);
   font-size: 2em;
 
   @media (min-width: 743px) {

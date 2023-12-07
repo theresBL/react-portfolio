@@ -26,12 +26,14 @@ const StyledTech = styled(ReusableSection)`
   }
 
   span:nth-child(2) {
-  background: #ff847c;
+  /* background: #ff847c; */
+  background: rgb(203,197,178);
   color: white;
   }
 
   span:nth-child(3) {
-  background: #79c2d0;
+  /* background: #79c2d0; */
+  background:  rgb(187,134,0);
   color: white;
   }
 

@@ -22,7 +22,7 @@ export const MyWords = () => {
             <ReusableButton
               svg={docIcon}
               fill='#000'
-              hoverBackground='#c7b198'
+              hoverBackground='#000'
               hoverColor='#FFF'
               text='Read'
             />
@@ -39,7 +39,7 @@ export const MyWords = () => {
             <ReusableButton
               svg={docIcon}
               fill='#000'
-              hoverBackground='#c7b198'
+              hoverBackground='#000'
               hoverColor='#FFF'
               text='Read'
             />
@@ -82,8 +82,8 @@ const OneArticle = styled(FlexColumn)`
 
 const ArticleImage = styled.img`
   width: 100%;
-  border-left: 1.25em solid #79c2d0;
-  border-bottom: 1.25em solid #79c2d0;
+  border-left: 1.25em solid rgb(187,134,0);
+  border-bottom: 1.25em solid rgb(187,134,0);
 `
 
 const H2span = styled.h2`

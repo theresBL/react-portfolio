@@ -18,13 +18,13 @@ export const Projects = () => {
             <ProjectInfo>
               <h2>{title}</h2>
               <p>{description}</p>
-              <TagsDiv>{tags.map((tag) => <Tag key={tags.index}>{tag} </Tag>)}</TagsDiv>
+              <TagsDiv key={tags.index}>{tags.map((tag) => <Tag key={tags.index}>{tag}</Tag>)}</TagsDiv>
               <ButtonDiv>
                 <a href={live} target="_blank" rel="noopener noreferrer">
                   <ReusableButton
                     svg={liveIcon}
                     fill='#000'
-                    hoverBackground='#ff847c'
+                    hoverBackground='#000'
                     hoverColor='#FFF'
                     text='Live demo'
                   />
@@ -35,7 +35,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     svg={gitIcon}
                     fill='#000'
-                    hoverBackground='#79c2d0'
+                    hoverBackground='rgb(187,134,0)'
                     hoverColor='#FFF'
                     text='View code'
                   />

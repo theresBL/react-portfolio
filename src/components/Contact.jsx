@@ -2,12 +2,12 @@ import styled from 'styled-components'
 import { ReusableSection } from '../ReusableStyles'
 import { Links, LinksDiv } from './Links'
 import { StyledImg } from './Hero'
-import profileImg from '../assets/images/profil.png'
+import profileImg from '../assets/images/TBL-cut.png'
 
 export const Contact = () => {
   return (
     <ContactSection>
-      <h1>Contact</h1>
+      <h1>Connect</h1>
       <StyledImg src={profileImg} alt='profileImage' />
       <div>
         <h2>Theres Brännberg Lendt</h2>

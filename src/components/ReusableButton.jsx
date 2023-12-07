@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styled from 'styled-components'
 
 export const ReusableButton = ({ backgroundColor, hoverBackground, hoverColor, color, svg, text, fill }) => {

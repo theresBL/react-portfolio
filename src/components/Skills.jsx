@@ -44,10 +44,10 @@ export const Skills = () => {
         <SkillsBlock>
           <More>More</More>
           <ul>
-            <li>Other</li>
-            <li>Other</li>
-            <li>Other</li>
-            <li>Other</li>
+            <li>Problem solver</li>
+            <li>Agile work methods</li>
+            <li>Team player</li>
+            <li>Crafting</li>
           </ul>
         </SkillsBlock>
       </SkillsGrid>
@@ -109,14 +109,13 @@ const Toolbox = styled.h2`
   `
 
 const Upcoming = styled.h2`
-  background-color: #79c2d0;
+  background-color: rgb(187,134,0);
   color: white;
   padding: 0 0.125em;
   `
 
 const More = styled.h2`
-background-color: #ff847c;
+background-color:rgb(203,197,178);
 color: white;
 padding: 0 0.125em;
-    
   `
