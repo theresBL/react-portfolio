@@ -4,6 +4,7 @@ import { ReusableButton } from './ReusableButton'
 import { ReusableSection } from '../ReusableStyles'
 import { FlexColumn } from '../ReusableStyles'
 import physio from '../assets/images/physio.jpg'
+import pixbo from '../assets/images/pixbo.jpeg'
 
 
 export const MyWords = () => {
@@ -30,7 +31,7 @@ export const MyWords = () => {
         </OneArticle>
 
         <OneArticle>
-          <ArticleImage src={physio} alt='image of physiotherapy' />
+          <ArticleImage src={pixbo} alt='image of physiotherapy' />
           <H2span>March 2023</H2span>
           <h3>The power of a team: <br />my experiences as a former athlete</h3>
           <p>While the benefits of being an elite athlete are obvious in terms of physical fitness and performance,
