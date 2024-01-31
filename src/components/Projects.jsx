@@ -87,7 +87,7 @@ const ProjectImage = styled.img`
   width: 100%;
   border-left:0.625em solid #333;
   border-bottom: 0.625em solid #333;
-  object-fit: cover;
+  object-fit: contain;
 
   @media (min-width: 744px) {
     height: 17.5em;

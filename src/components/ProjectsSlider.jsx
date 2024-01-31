@@ -1,9 +1,9 @@
 import Slider from 'react-slick'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { ProjectCard } from './ProjectCard'
-import { ProjectsData } from './ProjectsData'
 
-export const ProjectsSlider = () => {
+export const ProjectsSlider = ({ projects }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -12,15 +12,29 @@ export const ProjectsSlider = () => {
     slidesToScroll: 3,
   }
 
-  return (
-    <StyledSlider {...settings}>
-      {ProjectsData.map((project) => (
-        <StyledSlide key={index}>
-          <ProjectCard project={project} />
-        </StyledSlide>
-      ))}
-    </StyledSlider>
+  const slides = projects.map((project, index) => (
+    <div key="all-projects">
+      <ProjectCard project={project} />
+    </div>
+  ))
+
+  slides.push(
+    <div key="all-projects">
+      <Link to="/projects">View all projects</Link>
+    </div>
   )
+
+  return <Slider {...settings}>{slides}</Slider>
+
+  // return (
+  //   <StyledSlider {...settings}>
+  //     {projects.map((project, index) => (
+  //       <StyledSlide key={index}>
+  //         <ProjectCard project={project} />
+  //       </StyledSlide>
+  //     ))}
+  //   </StyledSlider>
+  // )
 }
 
 const StyledSlider = styled(Slider)`

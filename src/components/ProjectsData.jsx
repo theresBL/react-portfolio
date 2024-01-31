@@ -83,7 +83,7 @@ export const ProjectsData = [
   },
   {
     title: 'Yoga-studio landing page',
-    img: '/project-images/yoga.png',
+    img: '/project-images/gm.png',
     alt: 'image of the yoga studio landing page',
     description: 'This is a project based on a design handover from a UX-student. The requirements was to implement the strict design into code.',
     tags: ['React', 'Styled components', 'Design implementation'],
@@ -92,7 +92,7 @@ export const ProjectsData = [
   },
   {
     title: 'HTML Portfolio',
-    img: '/project-images/TBL-img.png',
+    img: '/project-images/tbl-html.png',
     alt: 'image of portfolio logo',
     description: 'This portfolio was at first created with entirely HTML and CSS. As I recreated it in React I also made some tweaks on the design.',
     tags: ['React', 'customHooks', 'Styled components'],
@@ -137,7 +137,7 @@ export const ProjectsData = [
   },
   {
     title: 'Guess Who game',
-    img: '/project-images/guesswho.png',
+    img: '/project-images/guess.png',
     alt: 'image of guess who app',
     description: 'Travel back to your childhood playing the classic board game in a remastered form. The game randomizes Who and you compete only with yourself. How few guesses will you pass?',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -146,7 +146,7 @@ export const ProjectsData = [
   },
   {
     title: 'The Laundry Chatbot',
-    img: '/project-images/chatbot.png',
+    img: '/project-images/Frame4.png',
     alt: 'image of the laundry bot app',
     description: 'A fun take on a chatbot that will help you book your laundry time in th cutest possible way.',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -155,7 +155,7 @@ export const ProjectsData = [
   },
   {
     title: 'News Site',
-    img: '/project-images/codetimes.png',
+    img: '/project-images/code-times.png',
     alt: 'image of news site',
     description: 'My first ever coding project in a new site formate. A clean and responsive site with a big dash of humor.',
     tags: ['HTML', 'CSS'],

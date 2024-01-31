@@ -59,11 +59,11 @@ gap: 1em;
 `
 
 const ProjectImage = styled.img`
-height: 12.5em;
+height: auto;
 width: 100%;
 border-left:0.625em solid #333;
 border-bottom: 0.625em solid #333;
-object-fit: cover;
+object-fit: contain;
 
 @media (min-width: 744px) {
   height: 17.5em;
