@@ -12,7 +12,7 @@ export const ProjectsData = [
   },
   {
     title: 'Circuit Training App',
-    img: '/project-images/circleIt.png',
+    img: '/project-images/circleit.png',
     alt: 'picture of workout app',
     description: "A fullstack project, in which we've built our own API and database. Login functionality that unlocks more features for the user.",
     tags: ['React', 'Styled components', 'API', 'MongoDB', 'Express', 'Node.js', 'Figma'],
@@ -56,7 +56,7 @@ export const ProjectsData = [
   // },
   {
     title: 'The Gothenburg Quiz',
-    img: '/project-images/gbg.png',
+    img: '/project-images/quiz.png',
     alt: 'image of the quiz',
     description: 'A quiz made from group-programming using Redux an routes',
     tags: ['React', 'Redux', 'Mob-programming', 'Figma'],
@@ -65,7 +65,7 @@ export const ProjectsData = [
   },
   {
     title: 'Labyrinth game',
-    img: '/project-images/lab.png',
+    img: '/project-images/labyrinth.png',
     alt: 'image of the labyrinth',
     description: 'A fun pair-programming experience where we put a lot of effort on making the styling fit the story of the game.',
     tags: ['React', 'Redux', 'React Router', 'Pair-programming', 'API'],
