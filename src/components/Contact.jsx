@@ -22,6 +22,7 @@ export const Contact = () => {
 const ContactSection = styled(ReusableSection)`
   gap: 4em;
 `
+
 const LinksLarge = styled(LinksDiv)`
   @media (min-width: 744px) {
     align-self: center;
